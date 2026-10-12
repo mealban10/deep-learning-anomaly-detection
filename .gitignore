@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and operating systems
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Large local datasets
+classifiers/PlantVillage-Dataset/
+
+# Generated model files and experiment outputs
+*.h5
+*.keras
+*.pth
+*.pt
+*.ckpt
+*.onnx
